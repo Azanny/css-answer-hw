@@ -1,0 +1,111 @@
+body{
+	background:#ddd;
+	font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+main{
+	position:relative;
+	margin:20px auto;
+	background:#fff;
+	width:727px;
+	height:336px;
+	padding-left:50px;
+	padding-right:5px;
+	font-size:13px;
+}
+
+.rating{
+	position:absolute;
+	top:20px;
+	left:5px;
+	color:#6a737c;
+	font-size:21px;
+}
+
+.rating::before,.rating::after{
+	content:'';
+	display:block;
+	position:relative;
+	left:2px;
+	width:32px;
+	height:16px;
+	background-image:url('../assets/sprite.png');
+	cursor:pointer;
+}
+
+
+
+.rating::before{
+	background-position:-5px -17px;
+	top:-10px;
+}
+
+.rating::after{
+	background-position:-5px -69px;
+	top:10px;
+}
+
+
+.also{
+	font-size:15px;
+}
+
+code{
+	display:block;
+	font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+	white-space: pre;
+	margin:10px 0 15px;
+	padding:0 8px;
+	border-radius:3px;
+	background:#eff0f1
+}
+
+
+
+.darkbluetext{
+	color:#101094 
+}
+
+.darkredtext{
+	color:#7D2727
+}
+
+.graytext{
+	color:#6a737c;
+	text-decoration:none;
+	margin:auto 5px;
+}
+
+.bluelink{
+	color:#0077CС;
+	text-decoration:none;
+}
+
+.bluelink:hover{
+	color:#3caaff
+}
+
+#wiki{
+	float:right;
+	margin:3px 90px 0;
+}
+.edited{
+	font-size:12px;
+	float:right;
+	margin-top:3px;
+}
+
+#quote{
+	position:relative;
+	margin-top:50px;
+	margin-bottom:10px;
+	border-top:1px solid #e4e6e8;
+	border-bottom:1px solid #e4e6e8;
+	padding:5px 10px 5px 25px;
+}
+
+#two{
+	position:absolute;
+	top:5px;
+	left:-5px;
+}
