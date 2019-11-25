@@ -29,7 +29,7 @@ main{
 	left:2px;
 	width:32px;
 	height:16px;
-	background-image:url('../assets/sprite.png');
+	background-image:url('https://github.com/Azanny/css-stackoverflow-hw/blob/master/assets/sprite.png');
 	cursor:pointer;
 }
 
